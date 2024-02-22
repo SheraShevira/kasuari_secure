@@ -1,0 +1,7 @@
+{
+  "name": "kasuari_secure",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
