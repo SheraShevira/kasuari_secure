@@ -1,0 +1,15 @@
+ion-content {
+  --background: linear-gradient(155deg, #EC5050 30%, #E97B7B 50%, #ffffff 100%);
+}
+
+.container {
+  padding-top: 5vh;
+  display: flex;
+  justify-content: center; /* Menyusun konten secara horizontal di tengah */
+  align-items: center; /* Menyusun konten secara vertikal di tengah */
+}
+
+.logo {
+  width: 200px; /* Sesuaikan lebar sesuai kebutuhan */
+  height: auto; /* Menyesuaikan tinggi secara proporsional */
+}
