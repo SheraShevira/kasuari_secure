@@ -10,7 +10,11 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'kebakaran-page',
+    loadChildren: () => import('./kebakaran-page/kebakaran-page.module').then( m => m.KebakaranPagePageModule)
   },
+
 ];
 
 @NgModule({
