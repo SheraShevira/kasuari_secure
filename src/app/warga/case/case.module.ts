@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { KumpulWargaPageRoutingModule } from './kumpul-warga-routing.module';
+import { CasePageRoutingModule } from './case-routing.module';
 
-import { KumpulWargaPage } from './kumpul-warga.page';
+import { CasePage } from './case.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    KumpulWargaPageRoutingModule
+    CasePageRoutingModule
   ],
-  declarations: [KumpulWargaPage]
+  declarations: [CasePage]
 })
-export class KumpulWargaPageModule {}
+export class CasePageModule {}

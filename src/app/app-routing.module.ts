@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'login',
-    loadChildren: () => import('./warga/login/login.module').then( m => m.LoginPageModule)
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
   {
     path: 'home',
@@ -12,12 +12,12 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'kumpul-warga',
+    redirectTo: 'case', //value ini diubah sesuai dengan halaman yang sedang kalian kembangakan, contoh sedang mengembangakan case maka value nya diubah menjadi case
     pathMatch: 'full'
   },
   {
-    path: 'kumpul-warga',
-    loadChildren: () => import('./warga/case/kumpul-warga/kumpul-warga.module').then( m => m.KumpulWargaPageModule)
+    path: 'case',
+    loadChildren: () => import('./warga/case/case.module').then( m => m.CasePageModule)
   },
 ];
 
