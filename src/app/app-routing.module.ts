@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home', //value ini diubah sesuai dengan halaman yang sedang kalian kembangakan, contoh sedang mengembangakan case maka value nya diubah menjadi case
+    redirectTo: 'case', //value ini diubah sesuai dengan halaman yang sedang kalian kembangakan, contoh sedang mengembangakan case maka value nya diubah menjadi case
     pathMatch: 'full'
   },
   {
