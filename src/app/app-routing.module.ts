@@ -12,12 +12,16 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'case', //value ini diubah sesuai dengan halaman yang sedang kalian kembangakan, contoh sedang mengembangakan case maka value nya diubah menjadi case
+    redirectTo: 'history-notifications', //value ini diubah sesuai dengan halaman yang sedang kalian kembangakan, contoh sedang mengembangakan case maka value nya diubah menjadi case
     pathMatch: 'full'
   },
   {
     path: 'case',
     loadChildren: () => import('./warga/case/case.module').then( m => m.CasePageModule)
+  },
+  {
+    path: 'history-notifications',
+    loadChildren: () => import('./admin/history-notifications/history-notifications.module').then( m => m.HistoryNotificationsPageModule)
   },
 ];
 

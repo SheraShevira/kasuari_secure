@@ -1,0 +1,57 @@
+.logo{
+    width: 40vw;
+    height: 10vh;
+    margin: 0 auto;
+    display: block;
+}
+
+.title > ion-title{
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.001em;
+  text-align: left;
+}
+
+ion-icon{
+  font-size: 26px !important;
+  margin-right: 8px;
+}
+
+label{
+  vertical-align: middle;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.001em;
+  text-align: left;
+}
+
+hr {
+  height: 1px !important;
+  width: 100vw !important;
+  background: #000 !important;
+  display: block !important;
+  font-size: 2em !important;
+  opacity: 0.4 !important;
+  visibility: visible !important;
+}
+
+ion-datetime-button::part(native) {
+  background: #FFF;
+  border: 1px solid #00000080;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.001em;
+  text-align: left;
+
+}
+
+ion-modal {
+  border-radius: 10px;
+}

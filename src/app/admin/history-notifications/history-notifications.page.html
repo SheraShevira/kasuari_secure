@@ -1,0 +1,68 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-img src="assets/images/Kasuari Logo Header.svg" class="logo"></ion-img>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <div class="title ion-padding-top">
+          <ion-title class="ion-text-center">Riwayat Notifikasi</ion-title>
+        </div>
+        <!-- <ion-button expand="full">Select Bank</ion-button> -->
+        <!-- <div class="date-select ion-padding-top">
+          <ion-datetime-button datetime="datetime"></ion-datetime-button>
+        </div>
+
+        <ion-modal [keepContentsMounted]="true">
+          <ng-template>
+            <ion-datetime
+              id="datetime"
+              locale="in-ID"
+              presentation="date"
+            ></ion-datetime>
+          </ng-template>
+        </ion-modal> -->
+        <hr />
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="list-hitory">
+          <ion-title class="ion-text-start">Kebakaran</ion-title>
+          <ion-list lines="none">
+            <ion-item>
+              <ion-icon
+                src="assets/icon/kebakaran__icon.svg"
+                slot="start"
+              ></ion-icon>
+              <ion-label>
+                <p>Jalan Kasuari II Blok Hb 5 No.15</p>
+              </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon
+                src="assets/icon/kebakaran__icon.svg"
+                slot="start"
+              ></ion-icon>
+              <ion-label>
+                <p>Jalan Kasuari II Blok Hb 5 No.15</p>
+              </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-icon
+                src="assets/icon/kebakaran__icon.svg"
+                slot="start"
+              ></ion-icon>
+              <ion-label>
+                <p>Jalan Kasuari II Blok Hb 5 No.15</p>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
