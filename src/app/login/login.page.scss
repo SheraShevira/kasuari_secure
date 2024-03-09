@@ -6,12 +6,12 @@ ion-content {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 96vw; /* Sesuaikan lebar gambar dengan kebutuhan */
-  height: 33vh; /* Sesuaikan tinggi gambar dengan kebutuhan */
+  width: 96vw;
+  height: 33vh;
   background-image: url('/assets/images/Kasuari Login 1.svg');
-  background-size: cover; /* Untuk mengisi area latar belakang secara proporsional */
-  background-repeat: no-repeat; /* Agar gambar tidak diulang */
-  z-index: -1; /* Agar gambar background berada di belakang konten */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
 .container {

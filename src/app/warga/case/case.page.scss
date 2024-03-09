@@ -1,0 +1,116 @@
+ion-header{
+  --webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.no-ripple {
+  --ripple-color: transparent;
+  --background-activated: transparent;
+  --background-activated-opacity:transparent;
+  --background-focused: transparent;
+  --background-focused-opacity:transparent;
+  --background-hover  : transparent;
+  --background-hover-opacity  :transparent;
+}
+
+.button-back-gradient{
+  padding: 0 0 8px 0;
+  background-color: #FCC0C0;
+  border-radius: 0 0 50px 0;
+}
+
+.button-back-gradient > div{
+  padding: 0 0 8px 0;
+  background-color: #F5A1A1;
+  border-radius: 0 0 50px 0;
+}
+
+.button-back{
+  margin: 0px;
+  background-color: #EC5050;
+  padding: 0 22px 16px 0;
+  border-radius: 0 0 50px 0;
+  transition: filter 0.3s ease;
+}
+
+.button-back:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.button-back:active {
+  filter: brightness(70%);
+}
+
+ion-icon{
+  color: #FAE3E3;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.top-image {
+  position: absolute;
+  top: 10vh;
+}
+
+.buttom-image {
+  position: absolute;
+  top: 12vh;
+  transition: filter 0.3s ease;
+}
+
+.buttom-image:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.buttom-image:active {
+  filter: brightness(40%);
+}
+
+.case-title{
+  margin-top: 78%;
+  font-family: Geometr415 Blk BT;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #EC5050;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description-gradient{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #FCC0C0;
+  padding-top: 16px;
+}
+
+.description-gradient > div{
+  background-color: #F5A1A1;
+  padding-top: 16px;
+}
+
+.description{
+  background-color: #EC5050;
+  padding: 34px 16px 34px 16px;
+  font-family: Geometr415 Blk BT;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+

@@ -4,11 +4,7 @@
     <ion-row class="ion-justify-content-center">
       <ion-col>
         <div class="container">
-          <ion-img
-            class="logo"
-            src="/assets/images/Kasuari Logo.svg"
-            alt="The Wisconsin State Capitol building in Madison, WI at night"
-          ></ion-img>
+          <ion-img class="logo" src="/assets/images/Kasuari Logo.svg"></ion-img>
         </div>
       </ion-col>
     </ion-row>
@@ -26,7 +22,7 @@
         </div>
         <div class="input-account">
           <ion-item class="input-field">
-            <ion-input placeholder="Nama Pengguna"></ion-input>
+            <ion-input placeholder="Sandi"></ion-input>
           </ion-item>
         </div>
       </ion-col>
@@ -34,7 +30,7 @@
     <ion-row>
       <ion-col>
         <div class="button-login">
-          <ion-button>Masuk</ion-button>
+          <ion-button [routerLink]="['/home']">Masuk</ion-button>
         </div>
       </ion-col>
     </ion-row>
