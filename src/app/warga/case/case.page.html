@@ -2,10 +2,12 @@
   <ion-buttons slot="start">
     <div class="button-back-gradient">
       <div>
-        <ion-button class="button-back">
-          <ion-icon color="light" size="large" name="chevron-back-outline"
-            >#shadow-root</ion-icon
-          >
+        <ion-button class="button-back no-ripple">
+          <ion-icon
+            size="large"
+            name="chevron-back-outline"
+            part="icon"
+          ></ion-icon>
         </ion-button>
       </div>
     </div>
@@ -13,8 +15,40 @@
 </ion-header>
 <ion-content [fullscreen]="true">
   <ion-grid>
-    <ion-row class="ion-justify-content-start">
-      <ion-col> </ion-col>
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <div class="image-container">
+          <ion-img
+            src="/assets/images/danger-gradient.svg"
+            class="top-image"
+          ></ion-img>
+          <ion-img
+            src="/assets/images/danger.svg"
+            class="buttom-image"
+          ></ion-img>
+          <div class="case-title">
+            <ion-title class="ion-text-center">KEBAKARAN!</ion-title>
+          </div>
+        </div>
+      </ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
+<ion-footer>
+  <ion-row class="ion-justify-content-center ion-no-margin">
+    <ion-col>
+      <div class="description-gradient">
+        <div>
+          <div class="description">
+            <ion-text class="ion-text-center">
+              Setelah menekan tombol DANGER, maka aplikasi akan mengirim sinyal
+              kepada pihak keamanan, lalu pihak keamanan pun mengetahui bahwa
+              ada sebuah laporan, dan memberikan pemberitahuan kepada warga
+              komplek kasuari untuk hati-hati dan tetap waspada.
+            </ion-text>
+          </div>
+        </div>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-footer>
