@@ -11,6 +11,60 @@
         <div class="title ion-padding-top">
           <ion-title class="ion-text-center">Riwayat Notifikasi</ion-title>
         </div>
+        <div class="select-date">
+          <div id="popover-button" class="no-ripple" color="none">
+            <!-- <ion-item class="ion-no-padding ion-no-margin" lines="none"> -->
+            <ion-label class="ion-text-left">Date</ion-label>
+            <ion-icon slot="end" src="assets/icon/Polygon 1.svg"></ion-icon>
+            <!-- </ion-item> -->
+          </div>
+          <ion-popover
+            alignment="center"
+            trigger="popover-button"
+            [dismissOnSelect]="false"
+          >
+            <ng-template>
+              <ion-content
+                ><ion-searchbar placeholder="Cari Tanggal"></ion-searchbar>
+                <ion-list>
+                  <ion-item [button]="true" id="nested-trigger"
+                    >Senin, 12 Februari 2022</ion-item
+                  >
+                  <ion-popover
+                    trigger="nested-trigger"
+                    [dismissOnSelect]="true"
+                  >
+                    <ng-template>
+                      <ion-content>
+                        <ion-list>
+                          <ion-item [button]="true" [detail]="true"
+                            ><ion-icon
+                              class="icon-list"
+                              src="assets/icon/kebakaran_icon.svg"
+                              slot="start"
+                            ></ion-icon>
+                            <ion-label>
+                              <p>Jalan Kasuari II Blok Hb 5 No.15</p>
+                            </ion-label></ion-item
+                          >
+                        </ion-list>
+                      </ion-content>
+                    </ng-template>
+                  </ion-popover>
+                </ion-list>
+              </ion-content>
+            </ng-template>
+          </ion-popover>
+          <!-- <ion-select
+            interface="popover"
+            placeholder="Date"
+            class="no-ripple"
+            shape="round"
+            fill="outline"
+          >
+            <ion-select-option value="1">Senin, 12/20/22</ion-select-option>
+          </ion-select> -->
+        </div>
         <!-- <ion-button expand="full">Select Bank</ion-button> -->
         <!-- <div class="date-select ion-padding-top">
           <ion-datetime-button datetime="datetime"></ion-datetime-button>
@@ -30,12 +84,13 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        <div class="list-hitory">
-          <ion-title class="ion-text-start">Kebakaran</ion-title>
+        <div class="list-history">
+          <ion-title class="ion-text-start">Senin, 12 Februari 2022</ion-title>
           <ion-list lines="none">
             <ion-item>
               <ion-icon
-                src="assets/icon/kebakaran__icon.svg"
+                class="icon-list"
+                src="assets/icon/kebakaran_icon.svg"
                 slot="start"
               ></ion-icon>
               <ion-label>
@@ -44,7 +99,8 @@
             </ion-item>
             <ion-item>
               <ion-icon
-                src="assets/icon/kebakaran__icon.svg"
+                class="icon-list"
+                src="assets/icon/kumpul_warga_icon.svg"
                 slot="start"
               ></ion-icon>
               <ion-label>
@@ -53,7 +109,8 @@
             </ion-item>
             <ion-item>
               <ion-icon
-                src="assets/icon/kebakaran__icon.svg"
+                class="icon-list"
+                src="assets/icon/kejahatan_icon.svg"
                 slot="start"
               ></ion-icon>
               <ion-label>
