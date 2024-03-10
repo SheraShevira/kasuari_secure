@@ -23,6 +23,18 @@ const routes: Routes = [
     path: 'history-notifications',
     loadChildren: () => import('./admin/history-notifications/history-notifications.module').then( m => m.HistoryNotificationsPageModule)
   },
+  {
+    path: 'kejahatan-notification',
+    loadChildren: () => import('./kejahatan-notification/kejahatan-notification.module').then( m => m.KejahatanNotificationPageModule)
+  },
+  {
+    path: 'kumpul-warga-notification',
+    loadChildren: () => import('./kumpul-warga-notification/kumpul-warga-notification.module').then( m => m.KumpulWargaNotificationPageModule)
+  },
+  {
+    path: 'bencana-alam-notification',
+    loadChildren: () => import('./bencana-alam-notification/bencana-alam-notification.module').then( m => m.BencanaAlamNotificationPageModule)
+  },
 ];
 
 
