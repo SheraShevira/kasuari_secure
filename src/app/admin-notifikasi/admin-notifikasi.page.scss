@@ -1,0 +1,44 @@
+ion-title{
+  font-family: Inter;
+  font-size: 30px;
+  color: #EC5050;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.001em;
+  text-align: left;
+  padding-top: 20%;
+}
+
+ion-img{
+    font-size: 26px !important;
+  }
+
+ion-icon{
+    font-size: 26px !important;
+    width: 500px;
+    height: 200px;
+    padding-top: 10%;
+  }
+
+ion-label{
+    font-family: Inter;
+    color:white;
+
+  }
+
+p{
+    color: black;
+}
+
+ion-button{
+  &::part(content) {
+    border-radius: 50px;
+}
+}
+
+ion-modal {
+    --ion-background-color: #EC5050; /* Ganti dengan warna yang Anda inginkan */
+    &::part(content) {
+      border-radius: 30px; // Here the border radius
+}
+  }

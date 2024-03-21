@@ -34,6 +34,16 @@ const routes: Routes = [
   {
     path: 'bencana-alam-notification',
     loadChildren: () => import('./admin/bencana-alam-notification/bencana-alam-notification.module').then( m => m.BencanaAlamNotificationPageModule)
+    path: 'user-notifikasi',
+    loadChildren: () => import('./user-notifikasi/user-notifikasi.module').then( m => m.UserNotifikasiPageModule)
+  },
+  {
+    path: 'admin-notifikasi',
+    loadChildren: () => import('./admin-notifikasi/admin-notifikasi.module').then( m => m.AdminNotifikasiPageModule)
+  },
+  {
+    path: 'admin-riwayat-kosong',
+    loadChildren: () => import('./admin-riwayat-kosong/admin-riwayat-kosong.module').then( m => m.AdminRiwayatKosongPageModule)
   },
 ];
 

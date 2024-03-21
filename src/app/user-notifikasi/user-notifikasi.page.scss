@@ -1,0 +1,58 @@
+.logo{
+    width: 40vw;
+    height: 10vh;
+    margin: 0 auto;
+    display: block;
+}
+
+.list-hitory > ion-title{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-shadow: 1px 3px 5px black;
+  letter-spacing: 0.001em;
+  color: #EC5050;
+  padding-top: 20%;
+}
+
+.ion-button-konfirmasi {
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  padding-left: 120px;
+  padding-top: 10%;
+}
+
+ion-icon{
+  font-size: 26px !important;
+  margin-right: 8px;
+  width: 1000px;
+  height: 180px;
+  padding-top: 10%;
+}
+
+label{
+  vertical-align: middle;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.001em;
+  text-align: left;
+}
+
+hr {
+  height: 1px !important;
+  width: 100vw !important;
+  background: #000 !important;
+  display: block !important;
+  font-size: 2em !important;
+  opacity: 0.4 !important;
+  visibility: visible !important;
+}
+
+ion-modal {
+  border-radius: 10px;
+}
